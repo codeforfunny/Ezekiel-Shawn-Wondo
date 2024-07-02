@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET","POST"])
 
-def index():
+def 1st test():
 
-return(render_template("index.html"))
+return(render_template("1st test.html"))
 
 if __name__ == "__main__":
 
